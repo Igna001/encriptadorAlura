@@ -1,6 +1,6 @@
 // Función para encriptar el texto
 function encriptarTexto(texto) {
-    let textoEncriptado = texto
+    const textoEncriptado = texto
         .replace(/e/g, "enter")
         .replace(/i/g, "imes")
         .replace(/a/g, "ai")
@@ -11,7 +11,7 @@ function encriptarTexto(texto) {
 
 // Función para desencriptar el texto
 function desencriptarTexto(textoEncriptado) {
-    let textoOriginal = textoEncriptado
+    const textoOriginal = textoEncriptado
         .replace(/enter/g, "e")
         .replace(/imes/g, "i")
         .replace(/ai/g, "a")
